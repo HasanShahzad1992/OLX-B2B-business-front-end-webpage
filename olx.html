@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ap1{margin: 0}
+        .ap2{margin: 0}
+        .ap3{margin: 0}
+        .ap4{margin: 0}
+        .ap5{margin: 0}
+        .ap6{margin: 0}
+        .ap7{margin: 0}
+        .ap8{margin: 0}
+        .ppa1{margin: 0}
+        .ppa2{margin: 0}
+        .ppa3{margin: 0}
+        .ppa4{margin: 0}
+        .ap1{margin-left: 20px}
+        .ap2{padding-left: 20px}
+        .ap3{padding-left: 20px}
+        .ap4{margin-left: 20px}
+        .ap5{margin-left: 20px}
+        .ap6{margin-left: 20px}
+        .ap7{margin-left: 20px}
+        .ap8{margin-left: 20px}
+        .f1{}
+        .f1 a{color: gray;text-decoration: none;font-size: 14px}
+        .f1 a:hover{color: black}
+        .f2{}
+        .f2 a{color: gray;text-decoration: none;font-size: 14px}
+        .f2 a:hover{color: black;text-decoration: none}
+        .f3 a{color: gray;text-decoration: none;font-size: 14px}
+        .f3{}
+        .f3 a:hover{color: black}
+        .f4 a {color: gray;text-decoration: none;font-size: 14px}
+        .f4 a:hover{color: black}
+        .f4{}
+        .anchor_social{display: inline-block}
+        .image_social{height: 100px;width: 100px}
+        .upper_section_div{display: inline-block;height: 100%;width: 15%;vertical-align: top }
+        .pa1{display: block;height: 10%;text-decoration: none}
+        .ppa1{color: grey;font-size: 12px}
+        .ppa1:hover{color: black}
+        .pa2{display: block;height: 10%;text-decoration: none}
+        .ppa2{color: grey}
+        .ppa2:hover{color: black}
+        .pa3{display: block;text-decoration: none;height: 10%}
+        .ppa3{color: gray}
+        .ppa3:hover{color: black}
+        .pa4{display: block;height: 10%;text-decoration: none}
+        .ppa4{color: gray}
+        .ppa4:hover{color: black}
+        .icons{padding-left: 15px}
+        .anchor_icon{font-size: 20px;text-decoration: none;color:#5e5b53}
+        .anchor_icon:active{color: black;}
+        .anchor_pics{display: inline-block;height: 85px;width: 85px;margin-left: 10px;margin-top: 17px}
+        .upper_section_div{padding-left: 25px}
+        .upper_main_div{width: 100%;height: 150px;position: fixed;top:0;background-color: blue;z-index: 100}
+        .upper_less_important_div{width: 100%;height: 40%}
+        .lower_less_important_div{width: 100%;height: 60%}
+        .olx_image{width: 50px;height: 45px;margin-left: 20px}
+        .car_font{font-size: 35px;position:relative;top:5px;margin-left: 20px}
+        .building_class{font-size: 35px;position: relative;top: 5px;margin-left: 20px}
+        .list_item{display: inline-block;margin-left: 25px;color: #232036}
+        .anchor_nav{text-decoration: none;color: black}
+        .anchor_nav:hover{color: seagreen}
+        .inner_first_col_div{}
+        .inner_first_col_span{}
+        .inner_second_col_div{}
+        .inner_third_col_div{}
+        .inner_fourth_col_div{}
+        .links_big_para{color: #232036;text-decoration: none}
+        .links_big_para:hover{color: seagreen}
+        .all_categories{display: none}
+        .all_categories_button_when_clicked{font-weight: bold;font-size: 15px;display: inline-block;position: relative;bottom:25px;padding-right: 20px}
+        .all_categories_button_when_clicked:hover + .all_categories{display: block}
+        .nav_lists{position: relative;top:25px}
+        .mistake_text{text-decoration:none;color: black}
+        .div_divey{margin-left: 30px}
+        .div_car{margin-left: 30px}
+
+
+
+
+    </style>
+    <script src="https://kit.fontawesome.com/6256f94c0e.js" crossorigin="anonymous"></script>
+</head>
+<body style="margin: 0">
+<header>
+    <div class="upper_main_div">
+        <div class="upper_less_important_div">
+             <div style="display: inline-block;vertical-align: top">
+                <a href="https://www.olx.com.pk/" style="display: inline-block">
+                    <img src="olx_logo.jpg" class="olx_image">
+                </a>
+            </div>
+            <div style="display: inline-block;height: 100%;margin-left: 20px;vertical-align: top">
+                <i class="fas fa-car car_font"></i>
+                <p style="display: inline-block;font-size: 20px;margin: 0;position: relative;top:5px;color: #232036">Motors</p>
+            </div>
+            <div style=";display: inline-block;height: 100%">
+                <i class="far fa-building building_class"></i>
+                <p style="display: inline-block;color: #232036">Property</p>
+            </div>
+
+        </div>
+        <div class="lower_less_important_div">
+            <div style="display: inline-block;height: 95%;width: 270px;margin-left: 20px">
+                <i class="fas fa-map-marker-alt" style="position:relative;top:30px;left:10px"></i>
+                <select style="height: 60%;width:100%;display: inline-block;text-indent: 30px;color:#232036">
+
+                    <option>Pakistan</option>
+                </select>
+            </div>
+            <div style="display: inline-block;height: 95%;width: 750px;margin-left: 20px">
+                <input placeholder="Find Cars,Mobile Phones and more..." style="height: 52%;width: 90%;text-indent: 15px">
+                <div style="display: inline-block;height: 58%;vertical-align: top;width: 39px;background-color: darkgreen;position: relative;right: 9px">
+                <i class="fas fa-search" style="position: relative;top:16px;left:12px"></i>
+                </div>
+            </div>
+            <div style="display: inline-block;position: relative;left: 30px;top: 5px">
+                <a href="#" style="display: inline-block;color: #363b34;font-weight: bold;font-size: 20px">
+                    <p>
+                        Login
+                    </p>
+                </a>
+            </div>
+            <div style="display: inline-block;position: relative;left: 90px;width: 100px;border-radius: 50px;position: relative;top: 13px">
+                <a href="#" style="display: inline-block;position: relative;left:25px;height: 20px">
+                    <p style="position: relative;bottom: 9px;font-size: 14px;color: black">+ SELL</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav style="position: relative;top:160px;margin-left: 30px">
+        <ul class="nav_lists">
+
+            <li class="list_item" style="margin-left: 150px"><a href="https://www.olx.com.pk/mobile-phones_c1453" class="anchor_nav">Mobile Phones</a></li>
+            <li class="list_item"><a href="https://www.olx.com.pk/cars_c84" class="anchor_nav">Cars</a></li>
+            <li class="list_item"><a class="anchor_nav">Motorcycles</a></li>
+            <li class="list_item"><a class="anchor_nav">Houses</a></li>
+            <li class="list_item"><a class="anchor_nav">Video-Audios</a></li>
+            <li class="list_item"><a class="anchor_nav">Tablets</a></li>
+            <li class="list_item"><a class="anchor_nav">Land & Plots</a></li>
+        </ul>
+        <p class="all_categories_button_when_clicked">ALL CATEGORIES<i class="fas fa-angle-down" style="position: relative;left: 20px"></i></p>
+        <div style="border:solid red" class="all_categories">
+            <div style="display: inline-block;margin-left: 35px;margin-right: 35px">
+                <div class="inner_first_col_div">
+                    <span class="inner_first_col_span"><a href="https://www.olx.com.pk/mobiles_c1411" class="links_big_para" style="font-weight: bold">Mobiles</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Mobile Phones</a></li>
+                        <li><a href="#" class="links_big_para">Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Smart Watches</a></li>
+                        <li><a href="#" class="links_big_para">Smart Watches</a></li>
+                    </ul>
+                </div>
+                <div class="inner_first_col_div">
+                    <span class="inner_first_col_span"><a href="#" class="links_big_para" style="font-weight: bold">Vehicles</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                       <li><a href="#" class="links_big_para">Cars</a></li>
+                        <li><a href="#" class="links_big_para">Car Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Spare Parts</a></li>
+                        <li><a href="#" class="links_big_para">Spare Parts</a></li>
+                        <li><a href="#" class="links_big_para">Rickshaw & Chingchi</a></li>
+                        <li><a href="#" class="links_big_para">Tractors and Trailers</a></li>
+                        <li><a href="#" class="links_big_para">Tractors and Trailers</a></li>
+                        <li><a href="#" class="links_big_para">Other Vehicles</a></li>
+                        <li><a href="#" class="links_big_para">Boats</a></li>
+                    </ul>
+                </div>
+                <div class="inner_first_col_div">
+                    <span class="inner_first_col_span"><a href="#" class="links_big_para" style="font-weight: bold">Property for Sale</a></span>
+                    <ul style="list-style-type: none;position:relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Land & Plots</a></li>
+                        <li><a href="#" class="links_big_para">Houses</a></li>
+                        <li><a href="#" class="links_big_para">Apartments and Flats</a></li>
+                        <li><a href="#" class="links_big_para">Shops-Offices-Commercial Space</a></li>
+                        <li><a href="#" class="links_big_para">Portions and Floors</a></li>
+                    </ul>
+                </div>
+                <div class="inner_first_col_div">
+                    <span class="inner_first_col_span"><a href="#" class="links_big_para" style="font-weight: bold">Property for Rent</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Portions & Floors</a></li>
+                        <li><a href="#" class="links_big_para">Houses</a></li>
+                        <li><a href="#" class="links_big_para">Apartments & Flats</a></li>
+                        <li><a href="#" class="links_big_para">Rooms</a></li>
+                        <li><a href="#" class="links_big_para">Roommates & Paying Guests</a></li>
+                        <li><a href="#" class="links_big_para">Vacation Rentals - Guest Houses</a></li>
+                        <li><a href="#" class="links_big_para">Land & Plots</a></li>
+                    </ul>
+                </div>
+                <div class="inner_first_col_div">
+                    <span class="inner_first_col_span"><a href="#" class="links_big_para" style="font-weight: bold">Electronics and Home Appliances</a></span>
+                    <ul style="list-style-type: none;position:relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Computers & Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Televisions & Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Generators,UPS & Power Solutions</a></li>
+                        <li><a href="#" class="links_big_para">AC & Coolers</a></li>
+                        <li><a href="#" class="links_big_para">Refrigerators & Freezer</a></li>
+                        <li><a href="#" class="links_big_para">Cameras & Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Other Home Appliances</a></li>
+                        <li><a href="#" class="links_big_para">Games & Entertainments</a></li>
+                        <li><a href="#" class="links_big_para">Kitchen Appliances</a></li>
+                        <li><a href="#" class="links_big_para">Video-Audios</a></li>
+                        <li><a href="#" class="links_big_para">Fans</a></li>
+                        <li><a href="#" class="links_big_para">Washing Machines & Dryers</a></li>
+                        <li><a href="#" class="links_big_para">Microwaves & Ovens</a></li>
+                        <li><a href="#" class="links_big_para">Sewing Machines</a></li>
+                        <li><a href="#" class="links_big_para">Heaters & Geysers</a></li>
+                        <li><a href="#" class="links_big_para">Heaters & Geysers</a></li>
+                        <li><a href="#" class="links_big_para">Iron & Streamers</a></a></li>
+                        <li><a href="#" class="links_big_para">Air Purifiers & Humidifiers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: inline-block;vertical-align: top;margin-right: 35px">
+                <div class="inner_second_col_div">
+                    <span><a href="#" class="links_big_para"style="font-weight: bold">Bikes</a></span>
+                    <ul style="list-style-type: none;position:relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Motorcycles</a></li>
+                        <li><a href="#" class="links_big_para">Bicycles</a></li>
+                        <li><a href="#" class="links_big_para">Spare parts</a></li>
+                        <li><a href="#" class="links_big_para">Bikes Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Scooters</a></li>
+                        <li><a href="#" class="links_big_para">ATV & Quads</a></li>
+                    </ul>
+                </div>
+                <div class="inner_second_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Business, Industrial & Agriculture</a></span>
+                    <ul style="list-style-type:none;position:relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Other Business & Industry</a></li>
+                        <li><a href="#" class="links_big_para">Food & Restaurant</a></li>
+                        <li><a href="#" class="links_big_para">Trade & Industrial Machinery</a></li>
+                        <li><a href="#" class="links_big_para">Medical & Pharma</a></li>
+                        <li><a href="#" class="links_big_para">Construction & Heavy Machinery</a></li>
+                        <li><a href="#" class="links_big_para">Business for Sale</a></li>
+                        <li><a href="#" class="links_big_para">Agriculture</a></li>
+                    </ul>
+                </div>
+                <div class="inner_second_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Services</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Other Services</a></li>
+                        <li><a href="#" class="links_big_para">Tuitions & Academies</a></li>
+                        <li><a href="#" class="links_big_para">Home & Office Repair</a></li>
+                        <li><a href="#" class="links_big_para">Domestic Help</a></li>
+                        <li><a href="#" class="links_big_para">Car Rental</a></li>
+                        <li><a href="#" class="links_big_para">Web Development</a></li>
+                        <li><a href="#" class="links_big_para">Travel & Visa</a></li>
+                        <li><a href="#" class="links_big_para">Drivers & Taxi</a></li>
+                        <li><a href="#" class="links_big_para">Health & Beauty</a></li>
+                        <li><a href="#" class="links_big_para">Event Services</a></li>
+                        <li><a href="#" class="links_big_para">Electronics & Computer Repairs</a></li>
+                        <li><a href="#" class="links_big_para">Consultancy Services</a></li>
+                        <li><a href="#" class="links_big_para">Construction Services</a></li>
+                        <li><a href="#" class="links_big_para">Movers & Packers</a></li>
+                        <li><a href="#" class="links_big_para">Farm & Fresh Food</a></li>
+                        <li><a href="#" class="links_big_para">Video & Photography</a></li>
+                        <li><a href="#" class="links_big_para">Architecture & Interior Design</a></li>
+                        <li><a href="#" class="links_big_para">Camera Installation</a></li>
+                        <li><a href="#" class="links_big_para">Car Services</a></li>
+                        <li><a href="#" class="links_big_para">Renting Services</a></li>
+                        <li><a href="#" class="links_big_para">Catering & Restaurants</a></li>
+                        <li><a href="#" class="links_big_para">Tailors Services</a></li>
+                        <li><a href="#" class="links_big_para" >Insurance Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: inline-block;vertical-align: top;margin-right: 35px">
+                <div class="inner_third_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Jobs</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Other Jobs</a></li>
+                        <li><a href="#" class="links_big_para">Online</a></li>
+                        <li><a href="#" class="links_big_para">Part Time</a></li>
+                        <li><a href="#" class="links_big_para">Education</a></li>
+                        <li><a href="#" class="links_big_para">Sales</a></li>
+                        <li><a href="#" class="links_big_para">Marketing</a></li>
+                        <li><a href="#" class="links_big_para">Customer Services</a></li>
+                        <li><a href="#" class="links_big_para">Domestic Staff</a></li>
+                        <li><a href="#" class="links_big_para">Restaraunts & Hospitality</a></li>
+                        <li><a href="#" class="links_big_para">Content Writing</a></li>
+                        <li><a href="#" class="links_big_para">Medical</a></li>
+                        <li><a href="#" class="links_big_para">Graphic Design</a></li>
+                        <li><a href="#" class="links_big_para">Accouting & Finance</a></li>
+                        <li><a href="#" class="links_big_para">IT & Networking</a></li>
+                        <li><a href="#" class="links_big_para">Delivery Rides</a></li>
+                        <li><a href="#" class="links_big_para">Hotels & Tourism</a></li>
+                        <li><a href="#" class="links_big_para">Human Resources</a></li>
+                        <li><a href="#" class="links_big_para">Manufacturing</a></li>
+                        <li><a href="#" class="links_big_para">Clerical & Administration</a></li>
+                        <li><a href="#" class="links_big_para">Security</a></li>
+                        <li><a href="#" class="links_big_para">Engineering</a></li>
+                        <li><a href="#" class="links_big_para">Advertising & PR</a></li>
+                        <li><a href="#" class="links_big_para">Real Estate</a></li>
+                        <li><a href="#" class="links_big_para">Internships</a></li>
+                        <li><a href="#" class="links_big_para">Architecture & Interior Design</a></li>
+                    </ul>
+                </div>
+                <div class="inner_third_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Animals</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Hens</a></li>
+                        <li><a href="#" class="links_big_para">Parrots</a></li>
+                        <li><a href="#" class="links_big_para">Cats</a></li>
+                        <li><a href="#" class="links_big_para">Pet Food & Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Dogs</a></li>
+                        <li><a href="#" class="links_big_para">Livestock</a></li>
+                        <li><a href="#" class="links_big_para">Pigeons</a></li>
+                        <li><a href="#" class="links_big_para">Finches</a></li>
+                        <li><a href="#" class="links_big_para">Fish</a></li>
+                        <li><a href="#" class="links_big_para">Rabbits</a></li>
+                        <li><a href="#" class="links_big_para">Other Birds</a></li>
+                        <li><a href="#" class="links_big_para">Doves</a></li>
+                        <li><a href="#" class="links_big_para">Ducks</a></li>
+                        <li><a href="#" class="links_big_para">Fertile Eggs</a></li>
+                        <li><a href="#" class="links_big_para">Peacocks</a></li>
+                        <li><a href="#" class="links_big_para">Other Animals</a></li>
+                        <li><a href="#" class="links_big_para">Horses</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: inline-block;vertical-align: top">
+                <div class="inner_fourth_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Furniture & Home Decor</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Beds & Wardrobes</a></li>
+                        <li><a href="#" class="links_big_para">Sofa & Chairs</a></li>
+                        <li><a href="#" class="links_big_para">Other Household items</a></li>
+                        <li><a href="#" class="links_big_para">Tables & Dining</a></li>
+                        <li><a href="#" class="links_big_para">Home Decoration</a></li>
+                        <li><a href="#" class="links_big_para">Office Furniture</a></li>
+                        <li><a href="#" class="links_big_para">Garden & Outdoor</a></li>
+                        <li><a href="#" class="links_big_para">Painting & Mirror</a></li>
+                        <li><a href="#" class="links_big_para">Curtain & Blinds</a></li>
+                        <li><a href="#" class="links_big_para">Rugs & Carpets</a></li>
+                        <li><a href="#" class="links_big_para">Bathroom Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="inner_fourth_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Fashion & Beauty</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Clothes</a></li>
+                        <li><a href="#" class="links_big_para">Watches</a></li>
+                        <li><a href="#" class="links_big_para">Weddings</a></li>
+                        <li><a href="#" class="links_big_para">Footwear</a></li>
+                        <li><a href="#" class="links_big_para">Skin & Hair</a></li>
+                        <li><a href="#" class="links_big_para">Bags</a></li>
+                        <li><a href="#" class="links_big_para">Jewellery</a></li>
+                        <li><a href="#" class="links_big_para">Fragrance</a></li>
+                        <li><a href="#" class="links_big_para">Makeup</a></li>
+                        <li><a href="#" class="links_big_para">Fashion Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Other Fashion</a></li>
+                    </ul>
+                </div>
+                <div class="inner_fourth_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Books,Sports & Hobbies</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Other Hobbies</a></li>
+                        <li><a href="#" class="links_big_para">Gym & Fitness</a></li>
+                        <li><a href="#" class="links_big_para">Sports Equipment</a></li>
+                        <li><a href="#" class="links_big_para">Books & Magazine</a></li>
+                        <li><a href="#" class="links_big_para">Musical Instruments</a></li>
+                    </ul>
+                </div>
+                <div class="inner_fourth_col_div">
+                    <span><a href="#" class="links_big_para" style="font-weight: bold">Kids</a></span>
+                    <ul style="list-style-type: none;position: relative;right: 35px">
+                        <li><a href="#" class="links_big_para">Toys</a></li>
+                        <li><a href="#" class="links_big_para">Kids Vehicles</a></li>
+                        <li><a href="#" class="links_big_para">Baby Gear</a></li>
+                        <li><a href="#" class="links_big_para">Kids Furniture</a></li>
+                        <li><a href="#" class="links_big_para">Kids Accessories</a></li>
+                        <li><a href="#" class="links_big_para">Swings & Slides</a></li>
+                        <li><a href="#" class="links_big_para">Kids Clothing</a></li>
+                        <li><a href="#" class="links_big_para">Bath & Diapers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+<div style="margin-top: 150px;margin-left: 30px">
+<h3>
+    All categories
+</h3>
+<a href="https://www.olx.com.pk/mobiles_c1411" style="display: inline-block" class="mistake_text">
+    <img src="https://www.farhaani.pk/wp-content/uploads/2021/09/KITTY-1.png" style="height: 150px;width: 150px;border-radius: 100px"">
+    <p style="text-align: center" >Mobiles</p>
+</a>
+<a href="https://www.olx.com.pk/vehicles_c5" style="display: inline-block"  class="mistake_text">
+    <img src="https://www.shopperspk.com/wp-content/uploads/2021/02/Electric-Rechargeable-Range-Rover-Toy-Car-for-Kids-With-Lights-and-Music-With-Remote-Control-TTF-6622.jpg" style="width: 150px;height: 150px;border-radius: 100px">
+    <p style="text-align: center">Vehicles</p>
+</a>
+<a href="https://www.olx.com.pk/property-for-sale_c2" style="display: inline-block" class="mistake_text">
+    <img src="https://m.media-amazon.com/images/I/51tUmBBUdHL._AC_UF1000,1000_QL80_.jpg" style="height: 150px;width: 150px;border-radius: 100px">
+    <p style="text-align: center">Property for sale</p>
+</a>
+<a href="https://www.olx.com.pk/property-for-rent_c3" style="display: inline-block" class="mistake_text">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzsGb9cD-Ea9W-UcJOH0OYR9Rks4mB5lJNmQ&s" style="height: 150px;width: 150px;border-radius: 100px">
+    <p style="text-align: center">Property for rent</p>
+</a>
+<a href="https://www.olx.com.pk/electronics-home-appliances_c99" style="display: inline-block;text-align: center" class="mistake_text">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7scIl0E5T0EFDGHYuvvvsPj25c9j7dFQkQ&s" style="height: 150px;width: 150px;border-radius: 100px">
+    <p style="text-align: center">Electronics and Home Appliances</p>
+</a>
+<a href="https://www.olx.com.pk/bikes_c1898" style="display: inline-block" class="mistake_text">
+   <img src="data:image/jpeg;base64,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" style="height:150px;width: 150px;border-radius: 100px">
+    <p style="text-align: center">Bikes</p>
+</a>
+<a href="https://www.olx.com.pk/business-industrial-agriculture_c1981" style="display: inline-block;text-align: center" class="mistake_text">
+    <img src="https://www.brudertoys.com/fileadmin/_processed_/8/9/csm_02818_2_d39c49315d.jpg" style="height: 150px;width: 150px;border-radius: 100px">
+    <p style="text-align: center">Business,Industrial and Agriculture</p>
+</a>
+<a href="https://www.olx.com.pk/services_c619"style="display: inline-block;text-align: center" class="mistake_text">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHKgJuTNnLgSmAVcwNPuLZJs5Xa3c8jLD8Gg&s" style="height: 150px;width: 150px;border-radius: 100px">
+    <p >Services</p>
+</a>
+<a href="https://www.olx.com.pk/jobs_c4" style="display: inline-block;text-align: center"class="mistake_text">
+    <img src="https://babypro.pk/cdn/shop/files/8_32635964-6264-4674-92e1-33c62fad14bb.jpg?v=1692477976" style="height: 150px;width: 150px;border-radius: 100px">
+    <p>Jobs</p>
+</a>
+<a href="https://www.olx.com.pk/jobs_c4" style="display: inline-block;text-align: center"class="mistake_text">
+    <img src="https://m.media-amazon.com/images/I/71AHpw451RL.jpg" style="width: 150px;height: 150px;border-radius: 100px">
+    <p>Animals</p>
+</a>
+<a href="https://www.olx.com.pk/jobs_c4" style="display: inline-block;text-align: center" class="mistake_text">
+    <img src="https://www.toycompany.pk/cdn/shop/files/71nrQy0angL._AC_SL1500_1280x.jpg?v=1707242692" style="height: 150px;width: 150px;border-radius: 100px">
+    <p>Furniture and Home Decor</p>
+</a>
+<a href="https://www.olx.com.pk/jobs_c4" style="display: inline-block;text-align: center" class="mistake_text">
+    <img src="https://thetoyfactory.pk/cdn/shop/files/1_86bdce99-00ad-4437-bb5c-75f63f771859.webp?v=1722359452" style="height: 150px;width: 150px;border-radius: 100px">
+    <p>Fashion and Beauty</p>
+</a>
+<a href="https://www.olx.com.pk/jobs_c4" style="display: inline-block; text-align: center" class="mistake_text">
+    <img src="https://static-01.daraz.pk/p/9cfda5c8038e1b9bb26e64ae230adb75.jpg" style="height: 150px;width: 150px;border-radius: 100px">
+    <p>Books</p>
+</a>
+<a href="https://www.olx.com.pk/jobs_c4" style="display: inline-block;text-align: center" class="mistake_text">
+    <img src="https://www.toyster.pk/cdn/shop/products/ezgif.com-gif-maker_9_2ef1dd7a-11ae-4cbf-9ef0-e7985a926f04.jpg?v=1675498740" style="height: 150px;width: 150px;border-radius: 100px">
+    <p>Toys</p>
+</a>
+</div>
+<div class="div_divey">
+    <h3 style="">
+        Mobile Phones
+    </h3>
+    <a href="https://www.olx.com.pk/item/i-phone-13-pro-max-non-pta-non-active-lla-factory-unlock-iid-1091353698"style="display: inline-block;border-radius: 10px;text-decoration: none;margin-right: 20px;height: 410px;vertical-align: top">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO2g9ewUqBEaQZgPtboFIzDqftOhaazEXE-w&s"style="width: 300px;height: 200px">
+        <p style="font-weight: bold;color: black;margin-bottom: 30px" class="ap1">Rs. 245,000<i class="far fa-heart" style="font-size: 20px;display: inline-block;width: 200px;text-align: right"></i></p>
+        <p style="color: gray;margin-bottom: 36px"class="ap1">Red Magic 9 pro</p>
+        <p style="color: gray;margin-bottom: 25px"class="ap1">Blue Area, Islamabad</p>
+        <p style="color: gray;font-size: 12px"class="ap1">3 weeks ago</p>
+    </a>
+    <a href="https://www.olx.com.pk/item/iphone-14-lla-j-v-locked-128gb-canada-128gb256gb-available-stock-iid-1091518232" style="display: inline-block;border-radius: 10px;text-decoration: none;margin-right: 20px;height: 410px;vertical-align: top">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6WJ9KIQkrb3FNpfUS9q7vqytToJZzjqFWNw&s" style="width:300px;height:200px ">
+        <p style="color: black;font-weight: bold;margin-bottom: 20px" class="ap2">Rs 21,900<i class="far fa-heart" style="font-size: 20px;display: inline-block;width: 210px;text-align: right"></i></p>
+        <p style="color: gray"class="ap2">INFINIX SMART 8 BOX PACK ZERO</p>
+        <p style="margin-bottom: 20px"class="ap2">30 NOTE 40 PRO HOT PRO HOT</p>
+        <p style="color: gray;margin-bottom: 20px"class="ap2">Township, Lahore</p>
+        <p style="color: gray;font-size: 12px"class="ap2">1 week ago</p>
+    </a>
+    <a href="https://www.olx.com.pk/item/oneplus-810pro9-pro99r8t8-pro7t7-pro-6t-global-fresh-stock-iid-1089076815" style="display: inline-block;border-radius: 10px;text-decoration: none;margin-right: 20px;height: 410px;vertical-align: top">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUpef3tSYm9IRWfLniOnyxF9fkYFsDYWjqtg&s" style="width: 300px;height: 200px">
+        <p style="font-weight: bold;margin-bottom: 20px" class="ap3">Rs 35,900<i class="far fa-heart" style="font-size: 20px;display: inline-block;width: 210px;text-align: right "></i></p>
+        <p class="ap3">One Plus 8,10Pro,9 Pro,9,9,R,8T,8</p>
+        <p style="color: gray;margin-bottom: 20px" class="ap3">Pro,7T,7 Pro & 6T Global Fresh Stock</p>
+        <p style="margin-bottom: 20px" class="ap3">Gulberg 3, Lahore</p>
+        <p style="color: gray;font-size: 12px" class="ap3">5 days ago</p>
+    </a>
+    <a href="https://www.olx.com.pk/item/one-plus-6t7t8t9r18199pro-all-stock-available-best-price-iid-1061663769" style="display: inline-block;border-radius: 10px;text-decoration: none;height: 410px;vertical-align: top">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqCNMk12IP377lvaSQz0zPnaZLwj2UdP8zQ&s" style="height: 200px;width: 300px">
+        <p style="color: black;margin-bottom: 20px" class="ap4">Rs 112,000 <i class="far fa-heart" style="font-size: 20px;display: inline-block;width: 210px;text-align: right"></i></p>
+        <p style="color: gray" class="ap4">s21 ultra s22 plus s21 plus s20 ultra</p>
+        <p style="margin-bottom: 20px"class="ap4">all stock available</p>
+        <p style="color: gray;margin-bottom: 20px"class="ap4">Raza Abad, Faisalabad</p>
+        <p style="color: gray;font-size: 12px" class="ap4">3 weeks ago</p>
+    </a>
+</div>
+<div class="div_car">
+    <h3>
+        Cars
+    </h3>
+    <a href="https://www.olx.com.pk/item/one-plus-6t7t8t9r18199pro-all-stock-available-best-price-iid-1061663769" style="text-decoration:none;display: inline-block;vertical-align: top;height: 370px;width: 300px;border-radius: 10px">
+        <img src="data:image/jpeg;base64,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" style="margin-bottom: 20px;height:180px;width: 300px">
+        <p style="color: black;font-weight: bold;margin-bottom: 20px" class="ap5">Rs 2,890,000<i class="far fa-heart" style="font-size: 20px;display: inline-block;width: 180px;text-align:right"></i></p>
+        <p style="color: gray;margin-bottom: 20px"class="ap5">Suzuki Wagon R 2022</p>
+        <p style="color: gray;margin-bottom: 10px"class="ap5"><i class="fas fa-tachometer-alt" style="font-size: 20px"></i>26,500km . 2022</p>
+        <p style="color: gray;margin-bottom: 10px"class="ap5">City Housing Society, Sialkot</p>
+        <p style="font-size: 12px;color: gray"class="ap5">6 days ago</p>
+    </a>
+    <a href="https://www.olx.com.pk/item/one-plus-6t7t8t9r18199pro-all-stock-available-best-price-iid-1061663769" style="display: inline-block;vertical-align: top;height: 370px;width: 300px;margin-left: 30px;border-radius: 10px;text-decoration: none;margin-right: 20px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAgkN1ZHeiw8ucePykvl2vdVHkMTArZTYq3w&s" style="margin-bottom: 20px;height:180px;width: 300px ">
+        <p class="ap6" style="font-weight: bold;color: black;margin-bottom: 20px">Rs 3,300,000 <i class="far fa-heart" style="display: inline-block;width: 180px;text-align: right;font-size: 20px"></i></p>
+        <p class="ap6" style="color: gray;margin-bottom: 20px">Honda City Aspire 2013</p>
+        <p class="ap6" style="color: gray;margin-bottom: 10px"><i class="fas fa-tachometer-alt" style="font-size: 20px"></i>125,000km . 2013</p>
+        <p class="ap6" style="color: gray;margin-bottom: 10px">Khayaban-e-Sir Syed, Rawalpindi</p>
+        <p class="ap6" style="color: gray;font-size: 12px">3 days ago</p>
+    </a>
+    <a href="https://www.olx.com.pk/item/one-plus-6t7t8t9r18199pro-all-stock-available-best-price-iid-1061663769" style="display: inline-block;vertical-align: top;height:370px;width: 300px;text-decoration: none;border-radius: 10px">
+        <img src="https://dam.which.co.uk/Swift_2017_287-front-615x461.jpg" style="height:180px;width: 300px;margin-bottom: 20px ">
+        <p style="color: black;margin-bottom: 20px;font-weight: bold" class="ap7">Rs 3,000,000<i class="far fa-heart" style="display: inline-block;width: 180px;font-size: 20px;text-align: right"></i></p>
+        <p style="margin-bottom: 20px;color: gray" class="ap7">Suzuki Swift 2017</p>
+        <p style="margin-bottom: 10px;color: gray" class="ap7"><i class="fas fa-tachometer-alt" style="font-size: 20px"></i>72,300km . 2017</p>
+        <p style="margin-bottom: 10px;color: gray" class="ap7">DHA Defense Phase 2, Islamabad</p>
+        <p style="color: gray;font-size: 12px" class="ap7">1 day ago</p>
+    </a>
+    <a href="https://www.olx.com.pk/item/one-plus-6t7t8t9r18199pro-all-stock-available-best-price-iid-1061663769" style="border-radius: 10px;display: inline-block;vertical-align: top;height: 370px;width: 300px;text-decoration: none;margin-left: 20px">
+        <img src="https://i.ytimg.com/vi/mpJ3fcAQMd0/maxresdefault.jpg" style="height: 180px;width: 300px;margin-bottom: 20px">
+        <p class="ap8" style="color: black;font-weight: bold;margin-bottom: 20px">Rs 3,280,000<i class="far fa-heart" style="Fmobil4display: inline-block;width:180px;text-align: right;font-size: 20px"></i></p>
+        <p class="ap8" style="color: gray">Honda Civic VTi Oriel Prosmatec</p>
+        <p class="ap8" style="color: gray;margin-bottom: 10px">2013</p>
+        <p class="ap8" style="color: gray;margin-bottom: 7px"><i class="fas fa-tachometer-alt" style="font-size: 20px"></i>98000 . 2013</p>
+        <p class="ap8" style="color: gray;margin-bottom: 10px">Bahria Town, Lahore</p>
+        <p class="ap8" style="font-size: 12px">6 days ago</p>
+    </a>
+</div>
+</section>
+<footer class="footer" style="width: 100%;height: 220px;border-top: gray solid 1px">
+<div class="upper_section" style="width: 100%;height: 75%;background-color: #e6e9ed;paddling-left: 40px">
+    <div class="upper_section_div">
+    <p style="font-weight: bold">Popular Categories</p>
+    <a href="https://www.olx.com.pk/cars_c84" class="pa1">
+        <p class="ppa1">Cars</p>
+    </a>
+    <a href="https://www.olx.com.pk/apartments-flats_c1723" class="pa1">
+        <p class="ppa1">Flats for rent</p>
+    </a>
+    <a href="https://www.olx.com.pk/mobile-phones_c1453" class="pa1">
+        <p class="ppa1">Mobile phones</p>
+    </a>
+    <a href="https://www.olx.com.pk/jobs_c4" class="pa1">
+        <p class="ppa1">Jobs</p>
+    </a>
+    </div>
+    <div class="upper_section_div">
+        <p style="font-weight: bold">Trending Searches</p>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa2">
+            <p class="ppa2">Bikes</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa2">
+            <p class="ppa2">Watches</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa2">
+            <p class="ppa2">Books</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa2">
+            <p class="ppa2">Dogs</p>
+        </a>
+    </div>
+    <div class="upper_section_div">
+        <p style="font-weight: bold">About us</p>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa3">
+            <p class="ppa3">About Dubizzle Group</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa3">
+            <p class="ppa3">OLX Blog</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa3">
+            <p class="ppa3">Contact us</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa3">
+            <p class="ppa3">OLX for Business</p>
+        </a>
+    </div>
+    <div class="upper_section_div">
+        <p style="font-weight: bold">OLX</p>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa4">
+            <p class="ppa4">Help</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa4">
+            <p class="ppa4">Sitemap</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa4">
+            <p class="ppa4">Terms of use</p>
+        </a>
+        <a href="https://www.olx.com.pk/cars_c84" class="pa4">
+            <p class="ppa4">Privacy Policy</p>
+        </a>
+    </div>
+    <div class="upper_section_div" style="width: 25%">
+        <div style=height: 47%;width: 100%">
+            <p style="font-weight: bold;margin-left: 10px">Follow us</p>
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_icon">
+                <i class="fab fa-twitter icons"></i>
+            </a>
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_icon">
+                <i class="fab fa-facebook icons"></i>
+            </a>
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_icon">
+                <i class="fab fa-youtube icons"></i>
+            </a>
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_icon">
+                <i class="fab fa-instagram icons"></i>
+            </a>
+        </div>
+        <div style="height: 47%;width: 100%">
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_pics">
+                <img src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" class="amazon_pics">
+            </a>
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_pics">
+                <img src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" class="amazon_pics">
+            </a>
+            <a href="https://www.olx.com.pk/cars_c84" class="anchor_pics">
+                <img src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" class="amazon_pics">
+            </a>
+        </div>
+</div>
+<div class="lower_section" style="width: 100%;height: 25%;background-color: darkslategrey;padding-top: 15px">
+    <p style="text-align:right;color: white;font-weight: bold">Free Classified in Pakistan .@ 2006-2024OLX</p>
+</div>
+
+</footer>
+</body>
+</html>
